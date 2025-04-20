@@ -1,0 +1,93 @@
+/* Estilos responsivos para o sistema de ordem de serviço */
+
+/* Estilos gerais */
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Ajustes para tabelas em dispositivos móveis */
+  .table-responsive {
+    border: 0;
+  }
+  
+  /* Ajustes para formulários em dispositivos móveis */
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  /* Ajustes para botões em dispositivos móveis */
+  .btn {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  
+  /* Ajustes para cabeçalho em dispositivos móveis */
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  
+  /* Ajustes para cards em dispositivos móveis */
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  /* Ajustes para imagens em dispositivos móveis */
+  img.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Ajustes para tablets */
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Ajustes para telas maiores */
+@media (min-width: 993px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+/* Ajustes para elementos de formulário */
+.form-control {
+  margin-bottom: 0.5rem;
+}
+
+/* Ajustes para botões de ação nas tabelas */
+@media (max-width: 576px) {
+  .table td .btn {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+}
+
+/* Ajustes para filtros em dispositivos móveis */
+@media (max-width: 768px) {
+  .filter-section {
+    flex-direction: column;
+  }
+}
+
+/* Ajustes para touch em dispositivos móveis */
+@media (hover: none) {
+  .btn:hover {
+    background-color: inherit;
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
+  }
+}
